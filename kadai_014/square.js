@@ -1,5 +1,5 @@
 function hundred(number) {
-  console.log(number * number);
+  return number * number;
 };
 
-hundred(10);
+console.log(hundred(10))
